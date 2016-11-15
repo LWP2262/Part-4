@@ -5,7 +5,7 @@ int ballx = 360;
 int bally = 300;
 int directionx = 1;
 float directiony = 1;
-int speedx = 5;
+int speedx = 0;
 int speedy = 5;
 int score1 = 0;
 int score2 = 0;
@@ -88,9 +88,9 @@ void draw () {
     text(":", 380, 80);
     text(second, 395, 80);
   } else {
-    fill(#FF0000);
+    fill(250);
     textSize(48);
-    text("GAME OVER :(", 280, 320); 
+    text("Click to Play!", 280, 320); 
     if (mousePressed) {
       speedx = 5;
       speedy = 5;
