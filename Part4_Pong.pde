@@ -1,4 +1,4 @@
-// Laurel Parsley 11/15/16 //<>//
+// Laurel Parsley 11/8/16 //<>//
 int p1 = 120; 
 int p2 =  120;
 int ballx = 360;
